@@ -1,0 +1,155 @@
+[28-Nov-2019 08:17:20 UTC] PHP Warning:  PDO::query(): MySQL server has gone away in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 106
+[28-Nov-2019 08:17:20 UTC] PHP Warning:  PDO::query(): MySQL server has gone away in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 106
+[28-Nov-2019 08:17:20 UTC] PHP Warning:  PDO::query(): MySQL server has gone away in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 164
+[28-Nov-2019 08:17:20 UTC] PHP Warning:  PDO::query(): MySQL server has gone away in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 334
+[28-Nov-2019 08:17:20 UTC] PHP Warning:  PDO::query(): MySQL server has gone away in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 371
+[28-Nov-2019 08:17:21 UTC] PHP Warning:  PDO::query(): Error reading result set's header in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 106
+[28-Nov-2019 08:17:21 UTC] PHP Warning:  PDO::query(): Error reading result set's header in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 106
+[28-Nov-2019 08:17:21 UTC] PHP Warning:  PDO::query(): Error reading result set's header in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 164
+[28-Nov-2019 08:17:21 UTC] PHP Warning:  PDO::query(): Error reading result set's header in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 371
+[28-Nov-2019 08:17:21 UTC] PHP Warning:  PDO::query(): Error reading result set's header in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 334
+[28-Nov-2019 08:17:20 UTC] PHP Warning:  PDO::query(): MySQL server has gone away in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 126
+[28-Nov-2019 08:17:53 UTC] PHP Warning:  PDO::query(): Error reading result set's header in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 126
+[18-Jan-2020 04:00:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:01:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:02:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:02:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:03:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:04:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:04:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:05:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:05:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:06:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:07:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:07:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:08:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:08:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:08:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:09:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:09:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:10:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:10:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[18-Jan-2020 04:11:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/header.php:5) in /home/aungpyae/public_html/luckydrawphp/index.php on line 11
+[07-Feb-2020 11:14:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:14:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:15:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:15:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:15:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:15:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:16:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:16:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:16:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 15
+[07-Feb-2020 11:16:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:16:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 15
+[07-Feb-2020 11:16:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:16:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 15
+[07-Feb-2020 11:16:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:17:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:17:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:19:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:19:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 20
+[07-Feb-2020 11:19:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:20:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:20:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:20:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[07-Feb-2020 11:21:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 02:58:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 03:27:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 03:27:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 03:40:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 03:41:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 04:04:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 04:05:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 04:14:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 04:14:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 04:14:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 04:16:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 04:18:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aungpyae/public_html/luckydrawphp/inc/functions.php:434
+Stack trace:
+#0 /home/aungpyae/public_html/luckydrawphp/login.php(10): user_login('aaaaa', '123')
+#1 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/inc/functions.php on line 434
+[08-Feb-2020 04:18:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 04:19:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 04:19:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 04:20:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 04:20:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 04:21:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 04:21:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:448) in /home/aungpyae/public_html/luckydrawphp/login.php on line 13
+[08-Feb-2020 04:29:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 14
+[08-Feb-2020 04:29:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 14
+[08-Feb-2020 04:52:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:451) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 05:40:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 05:41:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 07:00:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 07:11:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 07:11:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 07:12:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 07:12:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 07:15:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 07:16:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[08-Feb-2020 07:16:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/aungpyae/public_html/luckydrawphp/inc/functions.php:452) in /home/aungpyae/public_html/luckydrawphp/login.php on line 18
+[12-Feb-2020 16:57:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_winning_number() in /home/aungpyae/public_html/luckydrawphp/customer_prize.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 13
+[12-Feb-2020 16:58:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_prize_for_winning() in /home/aungpyae/public_html/luckydrawphp/customer_prize.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 35
+[12-Feb-2020 17:03:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:03:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:03:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:03:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:04:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:04:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:04:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:04:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:06:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:06:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:06:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:06:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:06:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:06:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
+[12-Feb-2020 17:06:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/aungpyae/public_html/luckydrawphp/customer_prize.php on line 82
