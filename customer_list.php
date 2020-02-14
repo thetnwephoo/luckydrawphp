@@ -44,22 +44,22 @@ if(isset($_POST['delete'])){
                         <th scope="col">Email</th>
                         <th scope="col">ph_no</th>
                         <th scope="col">Remark</th>
+                        
+                        <th scope="col" style = "width:300px">Action</th>
+                        <!-- <th scope="col" colspan="3">Action</th> -->
                         </tr>
                     </thead>
                     <tbody>
-                        <?php 
-                        foreach (get_customer_list() as $item) {
-                        ?>
-                      <tr>
-                        <td><?php echo $item['id']; ?></td>
-                        <td><?php echo $item['name']; ?></td>
-                        <td><?php echo $item['email']; ?></td>
-                        <td><?php echo $item['ph_no']; ?></td>
-                        <td><?php echo $item['remark']; ?></td>
                         
-                        <td><?php echo '<a href="" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modalRelatedContent" data-id="'. $item['id'] .'" data-image="'. $item['profile_image'] .'" data-name="'. $item['name'] .'" data-email="'.$item['email'].'" data-ph_no="'.$item['ph_no'].'" data-remark="'.$item['remark'].'">Info</a>'?></td>
-                      
-                              <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog"
+                              </tbody>
+                          </table>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- Modal Box -->
+              <div class="modal fade right" id="modalRelatedContent" tabindex="-1" role="dialog"
                               aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
                               <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info" role="document">
                                 <!--Content-->
@@ -98,50 +98,31 @@ if(isset($_POST['delete'])){
 
                           
                             </div>
-                            <?php 
-
-                            echo "<td><a class='btn btn-primary btn-sm' href='customer.php?id=" . $item['id'] . "'>Edit</a>";
-                            echo "</td>";
-                            echo "<td><form method='post' action='customer_list.php' class='d-inline float-right' onsubmit=\"return confirm('Are you sure you want to delete this project?');\">";
-                            echo "<input type='hidden' value='".$item['id'] ."' name='delete'>";
-                            echo "<input type='submit' class='btn btn-danger btn-sm' value='Delete'>";
-                            echo "</form>";
-                            echo "</td>";
-                            echo "</tr>";
-
-                            ?>
-                           
-                    <?php
-                          }
-                    ?>
-                              </tbody>
-                          </table>
-                      </div>
-                      </div>
-                  </div>
-              </div>
-              
             
 </section>
 
 <script type="text/javascript">
         
         // data-* attributes to scan when populating modal values
-        var ATTRIBUTES = ['id', 'name','image','email','ph_no','remark'];
+        var ATTRIBUTES = ['id', 'name','Image','email','ph_no','remark'];
         
-        
-        $('[data-toggle="modal"]').on('click', function (e) {
+        console.log("Hi");
+        $(document).on('click', '.info',function (e) {
+		
             var $target = $(e.target);
             // modal targeted by the button
             var modalSelector = $target.data('target');
+            console.log(modalSelector);
             
             // iterate over each possible data-* attribute
             ATTRIBUTES.forEach(function (attributeName) {
+                
                 var $modalAttribute = $(modalSelector + ' #modal-' + attributeName);
                 
                 var dataValue = $target.data(attributeName);
-               
-                if(attributeName == "image") {
+                console.log($target.data('name'));
+                console.log(dataValue);
+                if(attributeName == "Image") {
                     
                     if(dataValue == null) {
                         var myimage = './images/noimage.png';

@@ -12,9 +12,40 @@ if(isset($_GET['id'])){
 <link rel="stylesheet" href="main.css">
 
 <!------ Include the above in your HEAD tag ---------->
+
+<?php
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $id= filter_input(INPUT_POST,'id' , FILTER_SANITIZE_NUMBER_INT);
+    $name = trim(filter_input(INPUT_POST,'name' , FILTER_SANITIZE_STRING));
+    $email = trim(filter_input(INPUT_POST,'email' , FILTER_SANITIZE_STRING));
+    $ph_no = trim(filter_input(INPUT_POST,'ph_no' , FILTER_SANITIZE_STRING));
+    $remark = trim(filter_input(INPUT_POST,'remark' , FILTER_SANITIZE_STRING));
+    $pass = trim(filter_input(INPUT_POST,'pass' , FILTER_SANITIZE_STRING));
+    
+    $profile_image = time() . '-' . $_FILES["profileImage"]["name"];
+    $target_dir = "images/";
+    $target_file = $target_dir . basename($profile_image);
+    move_uploaded_file($_FILES["profileImage"]["tmp_name"], $target_file);
+    if(register($name, $email, $ph_no, $id,$profile_image,$remark,$pass)){
+        echo "<script type='text/javascript'> window.location = 'index.php'; </script>";
+        // exit;
+    }else{
+        $error_message = 'Could not add Customer';
+    //   exit;
+        echo "<script type='text/javascript'> 
+         var error = confirm('Email Duplicate Error. Please Try again!'); 
+         if(error == true) {
+            // window.location = 'register.php';
+         } else {
+           window.location = 'register.php';
+         }
+         </script>";
+    }
+}
+?>
  
 <div class="container register-form">
-<form action="store.php" method="POST" enctype="multipart/form-data"> 
+<form action="register.php" method="POST" enctype="multipart/form-data"> 
             <div class="form">
                 <div class="note">
                     <p>Please Register your information here!</p>
@@ -45,7 +76,7 @@ if(isset($_GET['id'])){
                         <div class="col-md-6">
                             <div class="form-group">
                             <label>Remark</label>
-                            <textarea name="remark" class="form-control"></textarea>
+                            <textarea name="remark" class="form-control"><?php echo htmlspecialchars($remark); ?></textarea>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -86,6 +117,7 @@ if(isset($_GET['id'])){
 </div>
 </form>
 </div>
+
 <script src="script.js"></script>
 
 <style>

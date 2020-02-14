@@ -36,7 +36,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             echo "<script type='text/javascript'>
                 var result = confirm('Duplicate Error. Please Try again!'); 
                 if (result == true) {
-                        window.location = 'customer.php';
+                        // window.location = 'customer.php';
                     } else {
                             window.location = 'customer_list.php';
                         }
@@ -85,7 +85,7 @@ if(!empty($id))
           </div>
           <div class="form-group">
             <label>Remark</label>
-            <textarea name="remark" class="form-control"></textarea>
+            <textarea name="remark" class="form-control"><?php echo htmlspecialchars($remark)?></textarea>
           </div>
       </div>
     </div>

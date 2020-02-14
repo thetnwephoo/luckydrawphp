@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "<script type='text/javascript'> 
          var error = confirm('Email Duplicate Error. Please Try again!'); 
          if(error == true) {
-            window.location = 'register.php';
+            // window.location = 'register.php';
          } else {
            window.location = 'register.php';
          }

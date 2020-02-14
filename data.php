@@ -4,7 +4,7 @@
  */
 
 // DB table to use
-$table = 'customers,users';
+$table = 'customers';
 
 // Table's primary key
 $primaryKey = 'id';
@@ -18,14 +18,15 @@ $columns = array(
   array( 'db' => 'name', 'dt' => 'name' ),
   array( 'db' => 'email',  'dt' => 'email' ),
   array( 'db' => 'ph_no',   'dt' => 'ph_no' ),
+  array( 'db' => 'profile_image',   'dt' => 'Image' ),
   array( 'db' => 'remark',   'dt' => 'remark' )
   
 );
 
 // SQL server connection information
 $sql_details = array(
-  'user' => 'aungpyae_Lucky',
-  'pass' => 'a_0+Odcmr,~Ku',
+  'user' => 'root',
+  'pass' => '',
   'db'   => 'aungpyae_lucky_draw',
   'host' => 'localhost'
 );
