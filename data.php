@@ -18,7 +18,7 @@ $columns = array(
   array( 'db' => 'name', 'dt' => 'name' ),
   array( 'db' => 'email',  'dt' => 'email' ),
   array( 'db' => 'ph_no',   'dt' => 'ph_no' ),
-  array( 'db' => 'profile_image',   'dt' => 'Image' ),
+  array( 'db' => 'profile_image',   'dt' => 'profile_image' ),
   array( 'db' => 'remark',   'dt' => 'remark' )
   
 );

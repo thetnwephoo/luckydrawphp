@@ -99,21 +99,20 @@ $(document).ready(function() {
 				{ "data": "name" },
 				{ "data": "email" },
 				{ "data": "ph_no" },
-				{ "data": "remark" },
+				// { "data": "remark" },
 				{
-					// "data" : "id",
-
+					"data" : "id",
 					"searchable": false,
 					"sortable": false,
-					"render": function (data, row, type, full, meta) {
-						return "<a class='btn btn-primary btn-sm' href='customer.php?id=" + data +'(' + row[3] +')' + "'>Edit</a>"
+					"render": function (id, row, type, full, meta) {
+						return "<a class='btn btn-primary btn-sm' href='customer.php?id=" + id + "'>Edit</a>"
+								+ "<input type='button' class='btn btn-info btn-sm info' value='Info' id='"+ id +"' data-toggle='modal'>"
 						// +'<a href="" class="btn btn-success btn-sm info" data-toggle="modal" data-target="#modalRelatedContent" data-id="'+ id +'" data-image="'+ Image +'" data-name="'+ name +'" data-email="'+email+'" data-ph_no="'+ph_no+'" data-remark="'+remark+'">Info</a>'
 						+  "<form method='post' action='customer_list.php' class='d-inline float-right' onsubmit=\"return confirm('Are you sure you want to delete this project?');\">" 
-						+ "<input type='hidden' value='" + data +'(' + row[0] +')' + "' name='delete'>" 
+						+ "<input type='hidden' value='" + id + "' name='delete'>" 
 						+ "<input type='submit' class='btn btn-danger btn-sm' value='Delete'>" 
 						+ "</form>";
-					},
-					"targets": 0,
+					}
 				}
 				]
 			} );

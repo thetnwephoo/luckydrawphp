@@ -70,8 +70,8 @@ $('#draw').click(function(){
     $.ajax({
       
       type: 'GET',
-        url: 'http://luckydrawphp.itbankus.com/inc/get_winning_num.php',
-    //   url: 'http://localhost:70/luckydrawphp/inc/get_winning_num.php',
+        // url: 'http://luckydrawphp.itbankus.com/inc/get_winning_num.php',
+      url: 'http://localhost:70/luckydrawphp/inc/get_winning_num.php',
     
       data: { functionname : 'get_winning_number' , arguments: prize_id},
       dataType: "json",
