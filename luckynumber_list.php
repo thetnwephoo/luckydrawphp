@@ -31,28 +31,28 @@ if(isset($_POST['delete'])){
                        Add Number
                     </div>
                 </a>
-                <table class="table table-striped">
+                <table class="table table-striped" id="luckynumlist">
                     <thead>
                         <tr>
+                        <th scope="col">Id</th>
                         <th scope="col">Lucky Number</th>
                         <th scope="col">Customers</th>
+                        <th scope="col">Action</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php 
-                        foreach (get_luckynumber_list() as $item) {
-                            echo "<tr>";
-                            echo "<td>". $item['lucky_number']. "</td>"; 
-                            echo "<td>". $item['customer_name']. "</td>";
-                            echo "<td><a class='btn btn-primary btn-sm' href='lucky_number.php?id=" . $item['id'] . "'>Edit</a>";
-                            echo "<form method='post' action='luckynumber_list.php' class='d-inline float-right' onsubmit=\"return confirm('Are you sure you want to delete this project?');\">";
-                            echo "<input type='hidden' value='".$item['id'] ."' name='delete'>";
-                            echo "<input type='submit' class='btn btn-danger btn-sm' value='Delete'>";
-                            echo "</form>";
-                            echo "</td>";
-                            echo "</tr>";
-                        }
-                    ?>
+                        <!-- // foreach (get_luckynumber_list() as $item) {
+                        //     echo "<tr>";
+                        //     echo "<td>". $item['lucky_number']. "</td>"; 
+                        //     echo "<td>". $item['customer_name']. "</td>";
+                        //     echo "<td><a class='btn btn-primary btn-sm' href='lucky_number.php?id=" . $item['id'] . "'>Edit</a>";
+                        //     echo "<form method='post' action='luckynumber_list.php' class='d-inline float-right' onsubmit=\"return confirm('Are you sure you want to delete this project?');\">";
+                        //     echo "<input type='hidden' value='".$item['id'] ."' name='delete'>";
+                        //     echo "<input type='submit' class='btn btn-danger btn-sm' value='Delete'>";
+                        //     echo "</form>";
+                        //     echo "</td>";
+                        //     echo "</tr>";
+                        // } -->
                     </tbody>
     </table>
             </div>
