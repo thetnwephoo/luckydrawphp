@@ -125,7 +125,7 @@ $(document).ready(function() {
 
 
 
-		<!-- <script>
+		<script>
             $(document).ready(function() {
             	$('#luckynumlist').DataTable( {
             		"processing": true,
@@ -134,7 +134,7 @@ $(document).ready(function() {
             		"columns": [
             		{ "data": "id" },
             		{ "data": "lucky_number" },
-            		{ "data": "customer_id" },
+            		{ "data": "name" },
 					{"data": "id",
 					 "searchable": false,
 					 "sortable": false,
@@ -149,52 +149,9 @@ $(document).ready(function() {
             		]
             	} );
             } );
-		</script> -->
-
-
-		<script>
-		var editor; // use a global for the submit and return data rendering in the examples
- 
-			$(document).ready(function() {
-				editor = new $.fn.dataTable.Editor( {
-					ajax: "relationalDataTable.php",
-					table: "#luckynumlist",
-					fields: [ {
-							label: "Id:",
-							name:  "lucky_numbers.id"
-						}, {
-							label: "Lucky Number:",
-							name:  "lucky_numbers.lucky_number"
-						}, {
-							"label": "Customer Name:",
-							"name": "customers[].id",
-						}
-					]
-				} );
-			
-				// $('#luckynumlist').DataTable( {
-				// 	dom: "Bfrtip",
-				// 	ajax: {
-				// 		url: "../php/joinArray.php",
-				// 		type: 'POST'
-				// 	},
-				// 	columns: [
-				// 		{ data: "users.first_name" },
-				// 		{ data: "users.last_name" },
-				// 		{ data: "sites.name" },
-				// 		{ data: "permission", render: "[, ].name" }
-				// 	],
-				// 	select: true,
-				// 	buttons: [
-				// 		{ extend: "create", editor: editor },
-				// 		{ extend: "edit",   editor: editor },
-				// 		{ extend: "remove", editor: editor }
-				// 	]
-				// } );
-			} );
-		
-		
-		
 		</script>
+
+
+		
 		</body>
 		</html>

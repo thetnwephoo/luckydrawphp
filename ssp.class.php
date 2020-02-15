@@ -279,6 +279,55 @@ class SSP {
 		);
 	}
 
+	/**
+	 * TPN 
+	 * getlnumlist function 
+	 * Lucky Number List with customers name
+	 */
+
+	 static function getlnumlist($request, $conn, $columns) {
+		$bindings = array();
+		$db = self::db( $conn );
+
+		// Build the SQL query string from the request
+		$limit = self::limit( $request, $columns );
+		$order = self::order( $request, $columns );
+		$where = self::filter( $request, $columns, $bindings );
+
+		$data = self::sql_exec($db, $bindings, 
+		"SELECT lucky_numbers.id AS id, lucky_numbers.lucky_number, lucky_numbers.customer_id, customers.name FROM lucky_numbers LEFT JOIN customers ON lucky_numbers.customer_id = customers.id
+		$where
+		$order
+		$limit
+		"
+	 );
+
+
+	 // Data set length after filtering
+	 $resFilterLength = self::sql_exec( $db, $bindings,
+	 "SELECT COUNT(id) FROM lucky_numbers
+	  $where"
+		);
+		$recordsFiltered = $resFilterLength[0][0];
+
+		// Total data set length
+		$resTotalLength = self::sql_exec( $db,
+			"SELECT COUNT(id)
+			FROM   lucky_numbers"
+		);
+		$recordsTotal = $resTotalLength[0][0];
+
+
+	 return array(
+		"draw"            => isset ( $request['draw'] ) ?
+			intval( $request['draw'] ) :
+			0,
+		"recordsTotal"    => intval( $recordsTotal ),
+		"recordsFiltered" => intval( $recordsFiltered ),
+		"data"            => self::data_output( $columns, $data )
+	);
+	 }
+
 
 	/**
 	 * The difference between this method and the `simple` one, is that you can

@@ -1,69 +1,48 @@
-<?php
- 
-// DataTables PHP library
-include( "../../php/DataTables.php" );
- 
-// Alias Editor classes so they are easy to use
-use
-    DataTables\Editor,
-    DataTables\Editor\Field,
-    DataTables\Editor\Format,
-    DataTables\Editor\Mjoin,
-    DataTables\Editor\Options,
-    DataTables\Editor\Upload,
-    DataTables\Editor\Validate,
-    DataTables\Editor\ValidateOptions;
- 
- 
-/*
- * Example PHP implementation used for the join.html example
+<?php 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Easy set variables
  */
-// Editor::inst( $db, 'lucky_numbers' )
-//     ->field(
-//         Field::inst( 'lucky_numbers.first_name' ),
-//         Field::inst( 'lucky_numbers.last_name' ),
-//         Field::inst( 'lucky_numbers.site' )
-//             ->options( Options::inst()
-//                 ->table( 'sites' )
-//                 ->value( 'id' )
-//                 ->label( 'name' )
-//             ),
-//         Field::inst( 'sites.name' )
-//     )
-//     ->leftJoin( 'sites', 'sites.id', '=', 'lucky_numbers.site' )
-//     ->join(
-//         Mjoin::inst( 'permission' )
-//             ->link( 'lucky_numbers.id', 'user_permission.user_id' )
-//             ->link( 'permission.id', 'user_permission.permission_id' )
-//             ->order( 'name asc' )
-//             ->fields(
-//                 Field::inst( 'id' )
-//                     ->validator( Validate::required() )
-//                     ->options( Options::inst()
-//                         ->table( 'permission' )
-//                         ->value( 'id' )
-//                         ->label( 'name' )
-//                     ),
-//                 Field::inst( 'name' )
-//             )
-//     )
-//     ->process($_POST)
-//     ->json();
 
-    Editor::inst( $db, 'lucky_numbers' )
-    ->field( 
-      Field::inst('lucky_numbers.id'),
-      Field::inst('lucky_numbers.lucky_number'),
-      Field::inst('lucky_numbers.customer_id')
+// DB table to use
+// $table = 'customers';
 
-    )
-    ->innerjoin(
-        Mjoin::inst( 'customers' )
-            ->link('customers.id','lucky_numbers.id')
-            ->fields( 
-              Field::inst('customers.id'),
-              Field::inst('customers.name')
-             )
-    )
-    ->process($_POST)
-    ->json();
+// Table's primary key
+$primaryKey = 'id';
+
+// Array of database columns which should be read and sent back to DataTables.
+// The `db` parameter represents the column name in the database, while the `dt`
+// parameter represents the DataTables column identifier. In this case object
+// parameter names
+$columns = array(
+  array( 'db' => 'id', 'dt' => 'id' ),
+  array( 'db' => 'lucky_number', 'dt' => 'lucky_number' ),
+  array( 'db' => 'customer_id', 'dt' => 'customer_id' ),
+  array( 'db' => 'name', 'dt' => 'name' )
+  
+);
+
+// SQL server connection information
+$sql_details = array(
+  'user' => 'root',
+  'pass' => '',
+  'db'   => 'aungpyae_lucky_draw',
+  'host' => 'localhost'
+);
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * If you just want to use the basic configuration for DataTables with PHP
+ * server-side, there is no need to edit below this line.
+ */
+
+require( 'ssp.class.php' );
+
+echo json_encode(
+    SSP::getlnumlist($_GET, $sql_details, $columns)
+);
+
+// echo json_encode(
+//   SSP::simple( $_GET, $sql_details, $table, $primaryKey, $columns )
+// );
+?>
