@@ -87,9 +87,9 @@ $(document).ready( function () {
 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<script src="https://https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
-<script src="https://cdn.datatables.net/select/1.3.1/js/dataTables.select.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
 <script src="https://editor.datatables.net/extensions/Editor/js/dataTables.editor.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
 
 
 <script>
@@ -125,7 +125,7 @@ $(document).ready(function() {
 
 
 
-		<script>
+		<!-- <script>
             $(document).ready(function() {
             	$('#luckynumlist').DataTable( {
             		"processing": true,
@@ -149,6 +149,52 @@ $(document).ready(function() {
             		]
             	} );
             } );
+		</script> -->
+
+
+		<script>
+		var editor; // use a global for the submit and return data rendering in the examples
+ 
+			$(document).ready(function() {
+				editor = new $.fn.dataTable.Editor( {
+					ajax: "relationalDataTable.php",
+					table: "#luckynumlist",
+					fields: [ {
+							label: "Id:",
+							name:  "lucky_numbers.id"
+						}, {
+							label: "Lucky Number:",
+							name:  "lucky_numbers.lucky_number"
+						}, {
+							"label": "Customer Name:",
+							"name": "customers[].id",
+						}
+					]
+				} );
+			
+				// $('#luckynumlist').DataTable( {
+				// 	dom: "Bfrtip",
+				// 	ajax: {
+				// 		url: "../php/joinArray.php",
+				// 		type: 'POST'
+				// 	},
+				// 	columns: [
+				// 		{ data: "users.first_name" },
+				// 		{ data: "users.last_name" },
+				// 		{ data: "sites.name" },
+				// 		{ data: "permission", render: "[, ].name" }
+				// 	],
+				// 	select: true,
+				// 	buttons: [
+				// 		{ extend: "create", editor: editor },
+				// 		{ extend: "edit",   editor: editor },
+				// 		{ extend: "remove", editor: editor }
+				// 	]
+				// } );
+			} );
+		
+		
+		
 		</script>
 		</body>
 		</html>
